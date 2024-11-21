@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Morning, Sona!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://images.app.goo.gl/YjhSeVtLqDHUGASu6') no-repeat center center fixed; /* Replace with your GIF URL */
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .gold-text {
+            position: absolute;
+            top: 100px; /* Adjusted to move the text lower */
+            font-size: 3em;
+            color: gold;
+            font-weight: bold;
+            text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px orange;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        .silver-text {
+            font-size: 1.5em;
+            color: silver;
+            margin-top: 150px;
+            text-align: center;
+        }
+
+        .rose {
+            width: 150px;
+            height: 150px;
+            background-image: url('https://images.app.goo.gl/YjhSeVtLqDHUGASu6'); /* Replace with a rose image URL */
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 20px;
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px orange;
+            }
+            100% {
+                text-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gold-text">I Love You</div>
+    <div class="silver-text">Good Morning, Sona</div>
+    <div class="rose"></div>
+</body>
+</html>
